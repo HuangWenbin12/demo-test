@@ -28,4 +28,10 @@ class DemoTestApplicationTests {
         bookService.save();
         System.out.println("demo-test");
     }
+
+    @Test
+    public void update22(){
+        bookService.save();
+        System.out.println("demo-test");
+    }
 }
