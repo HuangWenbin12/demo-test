@@ -21,4 +21,10 @@ class DemoTestApplicationTests {
         bookService.save();
         System.out.println("demo-test");
     }
+
+    @Test
+    public void delete(){
+        bookService.save();
+        System.out.println("demo-test");
+    }
 }
