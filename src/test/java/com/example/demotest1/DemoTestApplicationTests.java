@@ -11,27 +11,31 @@ class DemoTestApplicationTests {
 
     @Autowired
     private BookService bookService;
+
     @Test
     void contextLoads() {
     }
 
 
     @Test
-    public void save(){
+    public void save() {
         bookService.save();
         System.out.println("demo-test");
     }
 
 
     @Test
-    public void update(){
+    public void delete1231() {
         bookService.save();
         System.out.println("demo-test");
     }
+
 
     @Test
     public void update22(){
         bookService.save();
         System.out.println("demo-test");
     }
+
 }
+
